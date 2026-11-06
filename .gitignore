@@ -1,0 +1,41 @@
+*.log
+.DS_Store
+Thumbs.db
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Laravel
+/auth.json
+/vendor
+/node_modules
+/public/build
+/public/hot
+/public/storage
+/storage/*.key
+/storage/pail
+/storage/framework/cache/*
+/storage/framework/sessions/*
+/storage/framework/testing/*
+/storage/framework/views/*
+/storage/logs/*
+
+# IDE and editor
+/.idea
+/.nova
+/.phpunit.cache
+/.vscode
+/.zed
+/.cursor
+/.codex
+
+# Testing and helper files
+.phpunit.result.cache
+.phpactor.json
+_ide_helper.php
+
+# OS and local development files
+Homestead.json
+Homestead.yaml
